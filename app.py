@@ -7,3 +7,6 @@ work_hours = input("How many hours did you work this week? ")
 work_hours = float(work_hours)
 weekly_pay = work_hours * 16.50
 #Calculating weekly pay based on user input
+
+print("Your weekly pay is: $", "{:.2f}".format(weekly_pay))
+#Formatted output to show weekly pay
