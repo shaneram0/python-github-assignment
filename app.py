@@ -10,3 +10,10 @@ weekly_pay = work_hours * 16.50
 
 print("Your weekly pay is: $", "{:.2f}".format(weekly_pay))
 #Formatted output to show weekly pay
+
+try:
+    work_hours = float(work_hours)
+except ValueError:
+    print("Please enter a valid number for hours worked.")
+    exit()
+    #Error handling for invalid input
